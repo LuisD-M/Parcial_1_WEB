@@ -19,16 +19,20 @@ body {
     color: rgb(243, 148, 7); 
 }
 
-.navegacion, li, a {
+.navegacion{
+    background-color: rgba(0, 0, 255, 0.521);
+}
+
+a{
+    color: rgb(216, 42, 42);
+    text-decoration: none;
+}
+
+.navegacion, li {
     list-style: none; 
-    background-color: rgba(12, 238, 238, 0.363);
     display: flex; 
     justify-content: right; 
     margin: 0 30px;
-}
-
-.navegacion a{
-    color: white;
     text-decoration: none;
 }
 
@@ -48,6 +52,8 @@ p{
     margin: 9px;
     background-color: rgba(255, 255, 255, 0);
     flex-direction: column;                          /* ubicar bloques pequeños columnas  */
+
+    gap: 20px;
 }
 
 .Columna_1_1, .Columna_2_1, .Columna_2_2, .Columna_3_1 {
@@ -80,7 +86,7 @@ p{
     border-top: 2px solid rgb(247, 124, 9);
     background-color: rgba(145, 29, 120, 0.322);
 
-    background-image: url('Imagenes/CCCOrazon.png');
+    background-image: url('Imagenes/CSS.svg');
     background-position: right bottom; 
     background-repeat: no-repeat; 
     background-size: 50px auto; 
@@ -123,6 +129,20 @@ footer {
     border-top: 4px solid rgb(223, 12, 205);
 
     background-image: url('Imagenes/logoHTML.png');
+    background-position: right bottom; 
+    background-repeat: no-repeat; 
+    background-size: 60px auto; 
+    
+}
+
+.Contenedor_mayor_pagina3{
+    background-color: rgba(241, 9, 21, 0.486);
+    margin: 20px auto; 
+    width: 80%; 
+    height: 200px;
+    border-top: 4px solid rgb(76, 5, 241);
+
+    background-image: url('Imagenes/CSS.svg');
     background-position: right bottom; 
     background-repeat: no-repeat; 
     background-size: 60px auto; 
