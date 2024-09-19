@@ -30,7 +30,6 @@ body {
 .navegacion a{
     color: white;
     text-decoration: none;
-
 }
 
 p{
@@ -47,7 +46,6 @@ p{
     height: 400px; 
 
     margin: 9px;
-
     background-color: rgba(255, 255, 255, 0);
     flex-direction: column;                          /* ubicar bloques pequeños columnas  */
 }
@@ -105,15 +103,28 @@ p{
     justify-content: space-around; 
 }
 
-.Subtitulo{
+h2{
     color: rgb(226, 114, 9);
 }
 
 footer {
     text-align: center; 
-    
 }
 
 #Nombre:hover{
     background-color: brown;
+}
+
+.Contenedor_mayor_pagina2{
+    background-color: rgba(171, 14, 192, 0.623);
+    margin: 20px auto; 
+    width: 80%; 
+    height: 200px;
+    border-top: 4px solid rgb(223, 12, 205);
+
+    background-image: url('Imagenes/logoHTML.png');
+    background-position: right bottom; 
+    background-repeat: no-repeat; 
+    background-size: 60px auto; 
+    
 }
