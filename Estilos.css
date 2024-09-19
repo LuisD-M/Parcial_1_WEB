@@ -1,0 +1,119 @@
+body {
+    background-image: url('Imagenes/Fondopantalla.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+}
+
+.Encabezado-titulo, .Encabezado-parrafo{
+    text-align: center;
+}
+
+.Encabezado-titulo{
+    font-weight: normal;
+    color: gray;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.Encabezado-parrafo{
+    color: rgb(243, 148, 7); 
+}
+
+.navegacion, li, a {
+    list-style: none; 
+    background-color: rgba(12, 238, 238, 0.363);
+    display: flex; 
+    justify-content: right; 
+    margin: 0 30px;
+}
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+
+}
+
+p{
+    color: white;
+}
+
+.Contenedor_mayor{
+    display: flex;
+    justify-content: center;
+}
+
+.Contenedor_mayor > .Columna_1, .Columna_2, .Columna_3 {
+    width: 25%;
+    height: 400px; 
+
+    margin: 9px;
+
+    background-color: rgba(255, 255, 255, 0);
+    flex-direction: column;                          /* ubicar bloques pequeños columnas  */
+}
+
+.Columna_1_1, .Columna_2_1, .Columna_2_2, .Columna_3_1 {
+    width: 100%; 
+    height: 200px; 
+}
+
+.Columna_1_1{
+    border-top: 2px solid rgb(12, 238, 238);
+    background-color: rgba(34, 231, 231, 0.322);
+
+    background-image: url('Imagenes/DNS.png');
+    background-position: right bottom; 
+    background-repeat: no-repeat; /* no repetir imagen */
+    background-size: 70px auto; 
+    }
+
+
+.Columna_2_1{
+    border-top: 2px solid rgb(248, 6, 6);
+    background-color: rgba(255, 235, 205, 0.753);
+
+    background-image: url('Imagenes/logoHTML.png');
+    background-position: right bottom; 
+    background-repeat: no-repeat; 
+    background-size: 50px auto; 
+}
+
+.Columna_2_2{
+    border-top: 2px solid rgb(247, 124, 9);
+    background-color: rgba(145, 29, 120, 0.322);
+
+    background-image: url('Imagenes/CCCOrazon.png');
+    background-position: right bottom; 
+    background-repeat: no-repeat; 
+    background-size: 50px auto; 
+}
+
+.Columna_3_1{
+    border-top: 2px solid rgb(68, 10, 204);
+    background-color: rgba(243, 239, 9, 0.322);
+
+    background-image: url('Imagenes/Mundo.png');
+    background-position: right bottom; 
+    background-repeat: no-repeat; 
+    background-size: 40px auto; 
+}
+
+.Columna_1, .Columna_3, .Columna_2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.Subtitulo{
+    color: rgb(226, 114, 9);
+}
+
+footer {
+    text-align: center; 
+    
+}
+
+#Nombre:hover{
+    background-color: brown;
+}
